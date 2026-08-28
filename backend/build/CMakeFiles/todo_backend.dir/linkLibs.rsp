@@ -1,0 +1,1 @@
+  -LC:/PROGRA~1/MySQL/MYSQLC~1.7/lib64  -lmysqlcppconn8 -lWs2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

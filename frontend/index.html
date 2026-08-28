@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+<div class="todos-bg-container">
+    <h1 class="todo-head">Todos</h1>
+    <h1 class="create-task-heading">Create<span class="create-task-heading-subpar">Task</span></h1>
+    <input type="text" class="todo-user-input" id="userInput" placeholder="Whats need to be done">
+    <button class="add-todo-button" id="addTodoBtn">Add</button>
+
+    <h1 class="create-task-heading">My<span class="create-task-heading-subpar">Tasks</span></h1>
+    <div class="todoItems-Container" id="todoItemsContainer"></div>
+
+    <button class="add-todo-button" id="saveTodo">Refresh</button>
+    <p id="message"></p>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

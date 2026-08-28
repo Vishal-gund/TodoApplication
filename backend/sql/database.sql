@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS todo_db;
+USE todo_db;
+
+CREATE TABLE IF NOT EXISTS todos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    text VARCHAR(255) NOT NULL,
+    is_checked BOOLEAN NOT NULL DEFAULT FALSE,
+    INDEX idx_todos_id (id)
+);
+
+INSERT INTO todos (text, is_checked)
+SELECT 'Learn C++ Backend', FALSE
+WHERE NOT EXISTS (SELECT 1 FROM todos LIMIT 1);

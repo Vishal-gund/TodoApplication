@@ -1,0 +1,15 @@
+*{margin:0;padding:0;box-sizing:border-box}
+.todos-bg-container{background-color:#f9fbfe;min-height:100vh;width:80%;margin:auto;box-shadow:0 8px 24px rgba(0,0,0,.1);border-radius:12px;padding:30px}
+.todo-head{text-align:center;font-family:Arial,sans-serif;font-size:46px;font-weight:500;margin:20px 0}
+.create-task-heading{font-family:Arial,sans-serif;font-size:32px;font-weight:700}
+.create-task-heading-subpar{font-family:Arial,sans-serif;font-size:32px;font-weight:500}
+.todo-user-input{background:#fff;width:100%;border:1px solid #e4e7eb;border-radius:10px;margin-top:10px;padding:15px}
+.add-todo-button{color:#fff;background:#4c63b6;font-size:18px;border:0;border-radius:4px;margin-top:20px;margin-bottom:50px;padding:5px 20px;cursor:pointer;transition:.2s}
+.add-todo-button:hover{background:#3b4fa1;transform:translateY(-2px);box-shadow:0 6px 12px rgba(0,0,0,.25)}
+.todo-item-container{margin-top:20px;display:flex}
+.CheckBox{width:20px;height:20px;margin-top:14px;margin-right:12px}
+.label-conatner{background:#e6f6ff;width:100%;padding:20px;border:5px solid #096f92;border-right:0;border-top:0;border-bottom:0;border-radius:4px;display:flex;justify-content:space-between}
+.delete-button{background:transparent;border:0;color:#7e858e;font-size:20px;cursor:pointer;padding:5px;border-radius:4px;transition:.2s}
+.delete-button:hover{color:#d11a2a;background:#fdecea;transform:scale(1.15)}
+.checked{text-decoration:line-through}
+#message{font-family:Arial,sans-serif;margin-top:-30px;margin-bottom:20px}
